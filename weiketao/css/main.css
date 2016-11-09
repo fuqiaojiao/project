@@ -1,0 +1,344 @@
+/* CSS Document */
+.header{
+	height:119px;
+	background:url(../images/wkt_1_01.jpg) no-repeat center;
+	background-color:#f9f8ef;
+}
+.center{
+	width:950px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.nav{
+	background-color:#82726b;
+}
+.nav li{
+	height:30px;
+	float:left;
+	list-style:none;
+	margin:0 15px;
+}
+.nav li a{
+	line-height:30px;
+	color:#bfb4ab;
+}
+.nav li .new{
+	background-color:#bb0101;
+	color:#fff;
+	width:16px;
+	height:16px;
+}
+/*搜索*/
+.search{
+	background-color:#e8e3dd;
+}
+.search li{
+	height:30px;
+	float:left;
+	list-style:none;
+	margin:0 50px 0 15px;
+	line-height:30px;
+	color:#82726b;
+}
+.search li a{
+	color:#82726b;
+}
+.search .searchbox input{
+	height:20px;
+	border:1px solid #82726b;
+	pading:0px;
+	float:left;
+	margin:4px 0px;
+}
+.search .searchbox span{
+	height:24px;
+    width:38px;
+	float:left;
+	background:#82726b;
+	margin:4px 0px;
+	color:#dfd9d2;
+	line-height:22px;
+	text-align:center;
+	font-weight:bold;
+}
+/*广告*/
+.ad{
+	background-color:f9f8ef;
+}
+.ad img{
+	margin:0 auto;
+}
+/*大容器*/
+/* 背景图 */
+.container{
+	background:url(../images/wkt_3_02.jpg) repeat-y center;
+	background-color:#f9f8ef;
+	height:5165px;
+}
+/* 中间 */
+.content{
+	width:950px;
+	height:5165px;
+	margin:0 auto;
+}
+.content .picture{
+	width:950px;
+	height:110px;
+	padding:15px 0px 10px 0px;
+}
+.content img{margin:0 auto;}
+/*千年宝观*/
+.content .pictureone{
+    width:950px;
+	height:500px;
+	background:url(../images/wkt_2_03.jpg) no-repeat center;
+	padding:0px 0px 15px 0px;
+}
+.pictureone dl{
+	padding-top: 60px;
+}
+.pictureone dt{
+	width: 478px;
+    height: 390px;
+    padding: 4px 4px;
+    float: left;
+    border: 2px solid #82726b;
+    margin: 3px 30px 30px 30px;
+}
+.pictureone dd{
+	color:#a39991;
+	font-weight:bold;
+	line-height:25px;
+}
+.pictureone .view{
+	font-size:30px;
+	font-weight:bolder;
+	color:#351405;
+	line-height:25px;
+	padding-bottom:10px;
+}
+.pictureone .viewtwo{
+	padding-top:10px;
+}
+/*新品请购*/
+.picturetwo{
+	width:950px;
+	height:720px;
+	background:url(../images/wkt_2_05.jpg) no-repeat;
+	padding:10px 0px 0px 0px;
+}	
+.four{
+	width:337px;
+	height:330px;
+	background:#fffaf3;
+	border:1px solid #ac9485;
+    float: left;
+    margin: 0px 0px 12px 12px;
+}
+.four img{
+	padding-top:8px;
+	display:block;
+}
+.four dd{
+	height:37px;
+}
+.four li{
+	list-style:none;
+	float:left;
+	line-height:37px;
+}
+.goods{
+	padding-left:20px;
+	font-size:16px;
+	color:#897b74;
+	font-weight:bold;
+}
+.mony{
+	margin-left:145px;
+	font-size:20px;
+	color:#351405;
+	font-weight:bolder;
+}
+/*枕头*/
+.content .wish{
+	width:950px;
+	height:350px;
+	background:url(../images/wkt_2_08.jpg) no-repeat;
+	margin:0px 0px 10px 0px;
+	position:relative;
+}
+.wish .by{
+	width:282px;
+	height:57px;
+	padding:30px 0px 30px 0px;
+	background:url(../images/love003_07.png) no-repeat;
+	position:absolute;
+	top:275px;
+	left:0px;
+}
+.by .price{
+	position:absolute;
+	left: 231px;
+    top: 3px;
+}
+.by .price p{color:#b92927;font-weight:bolder;}
+/*热门请购*/
+.content .hotdoor{
+	width:950px;
+	height:1041px;
+	background:url(../images/wkt_2_10.jpg) no-repeat;
+	padding:10px 0px 0px 0px;
+}
+.hotdoor .six{
+	width:337px;
+	height:330px;
+	background:#fffaf3;
+	border:1px solid #ac9485;
+    float:right;
+    margin: 0px 0px 12px 12px;
+}
+.hotdoor img{
+	margin-top:8px;
+	display:block;
+}
+.hotdoor .six dd{
+	height:37px;
+}
+.hotdoor .six li{
+	list-style:none;
+	float:left;
+	line-height:37px;
+}
+/*月老祠堂*/
+.content .moon{
+	width:950px;
+	height:350px;
+	background:url(../images/wkt_1_13.jpg) no-repeat;
+}
+/*典藏圣品*/
+.content .collect{
+	width:950px;
+	height:919px;
+	background:url(../images/wkt_2_15.jpg) no-repeat;
+	margin:10px 0px 0px 0px;
+}
+.nine{
+	width:230px;
+	height:280px;
+	background:#fffaf3;
+	border:1px solid #ac9485;
+    float: left;
+    margin: 19px -4px -5px 14px;
+}
+.nine img{
+	padding-top:4px;
+	display:block;
+}
+.nine dd{
+	height:25px;
+}
+.nine li{
+	list-style:none;
+	line-height:25px;
+}
+.nine .goods{
+	padding-left:20px;
+	font-size:16px;
+	color:#897b74;
+	font-weight:bold;
+}
+.nine .mony{
+	margin-left:20px;
+	font-size:20px;
+	color:#351405;
+	font-weight:bolder;
+}
+/*月老祠堂女*/
+.content .moonfemale{
+	width:950px;
+	height:345px;
+	background:url(../images/wkt_1_20.jpg) no-repeat;
+	margin:10px 0px 0px 0px;
+}
+/*藏*/
+.content .service{
+	width:950px;
+	height:338px;
+	background:url(../images/wkt_2_17.jpg) no-repeat;
+	margin:10px 0px 0px 0px;
+	
+}
+.service .oppen{
+	width:820px;
+	height:70px;
+	padding-left:92px;
+}
+.oppen li{
+	list-style:none;
+	float:left;
+	line-height:62px;
+	margin:0 4px;
+	color:#6b6666;
+}
+.oppen li a{color:#6b6666;font-size:12px;}
+.oppen .oppenone{
+	font-weight:bolder;
+	font-size:16px;
+}
+.content .water{
+	width:826px;
+	float: left;
+    padding-left: 92px;
+}
+.water li{
+	list-style:none;
+	float:left;
+	line-height:27px;
+	margin:0 4px;
+	color:#6b6666;
+}
+.water li a{color:#6b6666;font-size:12px;}
+.water .waterone{font-weight:bolder;font-size:16px;}
+.content .follow{
+	width:826px;
+	float: left;
+    padding-left: 92px;
+}
+.follow li{
+	list-style:none;
+	float:left;
+	line-height:58px;
+	margin:0 4px;
+	color:#6b6666;
+}
+.follow li a{color:#6b6666;font-size:12px;}
+.follow .followone{
+	font-weight:bolder;
+	font-size:16px;
+}
+.content .presales{
+	width:826px;
+	float: left;
+    padding-left: 92px;
+}
+.presales li{
+	list-style:none;
+	float:left;
+	line-height:40px;
+	margin:0 4px;
+}
+.presales li a{color:#6b6666;}
+.presales .presalesone{
+	font-weight:bolder;
+	font-size:16px;
+}
+.presales img{
+	padding:10px 10px;
+}
+/*静*/
+.content .slight{
+	width:950px;
+	height:350px;
+	background:url(../images/wkt_1_25.jpg) no-repeat;
+	margin:10px 0px 0px 0px;
+}
